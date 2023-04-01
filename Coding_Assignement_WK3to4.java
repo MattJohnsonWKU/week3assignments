@@ -4,23 +4,22 @@ public class Coding_Assignement_WK3to4 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-	
 	// 1. Create an array of int called ages that contains the following values: 3, 9, 23, 64, 2, 8, 28, 93.
-		int[] numbers = {3, 9, 23, 64, 2, 8, 28, 93,17};
+		int[] ages = {3, 9, 23, 64, 2, 8, 28, 93, 17};
 		
 		//a.	Programmatically subtract the value of the first element in the array from the value in the last element of the array (i.e. do not use ages[7] in your code). Print the result to the console.  
-		System.out.println(numbers[numbers.length -1]);
+		System.out.println(ages[ages.length -1]);
 		
 		//b.	Add a new age to your array and repeat the step above to ensure it is dynamic (works for arrays of different lengths).
 		//added 17
 		
 		//c.	Use a loop to iterate through the array and calculate the average age. Print the result to the console.
 		double sum = 0;
-		for (int number : numbers) {
-			sum += number;
+		for (int age : ages) {
+			sum += age;
 		}
 		
-		double average = sum / numbers.length;
+		double average = sum / ages.length;
 		System.out.println(average);
 		
 	// 2.	Create an array of String called names that contains the following values: “Sam”, “Tommy”, “Tim”, “Sally”, “Buck”, “Bob”.	
